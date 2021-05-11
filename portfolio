@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.
+      4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKt
+      u6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="../stylesheets/normalize.css" rel="stylesheet">
+    <link href="../stylesheets/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=
+      swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+    
+    <!--
+    <style>
+    /* adjust the pixel requirement? */
+    @media screen and (min-width: 481px) {
+      body{font-size: 17px;}
+      h1{font-size: 70px;}
+      h3{font-size: 20px;}
+      a{font-size: 15px;}
+    }
+    /* If the screen size is 479px wide or less */
+    /* reduce the size of headings etc */
+    @media screen and (max-width: 480px) {
+      body{font-size: 30px;}
+      h1{font-size: 100px;}
+      h3{font-size: 40px;}
+      a{font-size: 40px;}
+    </style>
+    -->
+    
+    <!--how to add an image/logo into the title?-->
+
+  </head>
+
+  <body>
+    
+    <header><h2>Portfolio</h2>
+      <nav>
+        <button><a href="about_me">About Me</a></button>
+        <button><a href="CV">CV</a></button>
+        <button><a href="portfolio">Portfolio</a></button>
+      </nav>
+    </header>
+    
+    <div class='PORTbox'>
+      <article>
+        <h3>What I’m working on at the moment: Smart Home (06/05/2021)</h3>
+        <p>I love smart home set ups and I’m currently working on my own. So 
+          far, I’ve made most of the lights in my bedroom ‘smart’. As well as 
+          being able to control individual lights, I also have shortcuts set up 
+          to control multiple lights at once, and shortcuts that control a mix 
+          of lights and other things. I control all of these on my phone either: 
+          via my iPhone ‘remote’* or via Siri.</p>
+          
+        <!--
+        <h4>Examples of my shortcuts:</h4>
+        <h4>‘bedtime’</h4>
+        <ul>
+          <li>turns off all the lights</li><br>
+          <li>lowest phone brightness</li><br>
+          <li>switches on dark mode</li><br>
+          <li>switches on do not disturb</li><br>
+          <li>switches on aeroplane mode</li><br>
+          <li>sets phone volume to 5%</li><br>
+          <li>switches on a podcast</li><br>
+          <li>(then switches it off after 15 minutes)</li><br>
+          <li>(if blinds aren’t already shut, shut them)</li><br>
+        </ul>
+
+        <h4>‘morning’</h4>
+        <ul>
+          <li>gets the sunrise time – if it’s before sunrise, the lights turn on
+          </li><br>
+          <li>40% brightness</li><br>
+          <li>switches on light mode</li><br>
+          <li>switches off do not disturb off</li><br>
+          <li>switches off aeroplane mode</li><br>
+          <li>(if it’s after sunrise time, open the blinds)</li><br>
+        </ul>
+        -->
+          
+        <p>I have a few more ideas for my smart home set up. For example, 
+          although I have a smart plug to turn my floor lamp on and off, I’m 
+          unable to remotely control the strength of the light, so I’d like to 
+          build an implement to control the dimmer switches. I’d also like to 
+          be able to open and close my blinds remotely and to perform some tasks
+          automatically when triggered by motion sensors. I’m not sure how to go
+          about all of these but I do have some ideas. I’ve got a Raspberry Pi 
+          and the Pythonista app on iPhone so I’ll definitely be using these in 
+          some way!<br><br></p>
+          
+        <h4>I’ve had some initial thoughts of important things to consider:</h4>
+          <ul>
+          <li>I’ll need to keep a record of which ‘direction’ the motor went in 
+          previously because I don’t want to damage my lamp or blinds.</li><br>
+          <li>I’ll need two motors for each dimmer switch, these will need to 
+          be small in order to not get in one other’s way.</li><br>
+          <li>I’ll need one motor for the blinds.</li><br>
+        </ul>
+      </article>
+      
+      <article>
+        <h3>What I’m working on at the moment: This website</h3>
+        <p>At the moment I am working on this website.
+        Below, I have drafted ideas I would like to include.</p>
+        <h3>What would I like to include on my website?</h3>
+        <ul>
+          <li>Document my programming projects in a portfolio</li><br>
+          <li>Information on my skills and experience</li><br>
+        </ul>
+        
+        <h3>What steps should I take?</h3>
+        <ul>
+          <li>Create a navigation toolbar</li><br>
+          <li>How to adjust for mobile navigation</li><br>
+          <li>CV I would like to do like an animated timeline?</li><br>
+          <li>design: what colours, shapes</li><br>
+          <li>add javascript</li><br>
+          <li>what animations?</li><br>
+          <li>an animation when it starts</li><br>
+          <li>for portfolio, have a title, but then you can click for more info</li><br>
+          <li>(then have a link to another page for further details)</li><br>
+          <li>mobile formatting - maybe instead of a header, have a side menu?</li><br>
+          <li>add google analytics?</li><br>
+        </ul>
+      </article>
+     </div>
+
+    <!--
+    <div class="portPage">
+      <div class="proj1">
+        <h4>project 1</h4>
+        <p>details of project 1</p>
+      </div>
+    </div>
+
+    <div class="portPage">
+      <div class="proj2">
+        <h4>project 2</h4>
+        <p>details of project 2</p>
+      </div>
+    </div>
+  
+    <div class="portPage">
+      <div class="proj3">
+        <h4>project 3</h4>
+        <p>details of project 3</p>
+      </div>
+    </div>
+    -->
+    
+    <footer>
+      <table>
+        <tr>
+          <td>
+            <a href="https://www.linkedin.com/in/natashahoward1/">
+              <img src="../images/linkedin.jpg" alt="LinkedIn">
+            </a>
+          </td>
+          <td>
+            <a href="mailto:natashahowardcareers@outlook.com">
+              <img class="circle" src="../images/email_logo.jpg" alt="Email">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/natashahoward">
+              <img class="circle" src="../images/github_logo.jpg" alt="GitHub">
+            </a>
+          </td>
+          <!--<td>    
+            <a href="https://twitter.com/natashahoward26">
+              <img src="../images/twitter_logo.jpg" alt="Twitter">
+            </a>
+          </td> -->
+        </tr>
+        <tr>
+          <td>natashahoward1</td>
+          <td>natashahowardcareers<br>@outlook.com</td>
+          <td>natashahoward</td>
+          <!--<td>natashahoward26</td>-->
+        </tr>
+      </table>
+    </footer>
+    
+    <!--
+    <script>
+    $('div').on('click', function() {
+    $(this).toggleClass('show-description');
+    });
+    </script>
+    -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sh
+      a384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.m
+      in.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3U
+      ksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap
+      .min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0U
+      od8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+  </body>
+
+</html>
