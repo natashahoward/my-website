@@ -1,0 +1,172 @@
+body{
+    background: url("../images/green_yellow_sky.jpg");
+    background-size: cover;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+header,footer{
+    background-color: #141414;
+    background-color: rgba(0,0,0,0.75);
+    text-align: center;
+}
+header{
+    position: relative;
+    padding: 10px 0 20px 0;
+}
+footer{
+    bottom: 0;
+    padding: 20px 0px;
+    color: #ddd;
+    font-size: 12px;
+    max-width: 860px;
+    z-index: 1;
+    margin: 0 auto;
+}
+.box,.CVbox,.AMbox,.CONbox,.PORTbox{
+    max-width: 850px;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+    height: 100%;
+}
+.box,.PORTbox{
+    border-left: 5px solid #4b9696;
+    border-right: 5px solid #4b9696;
+    background-color:#64c8c8;
+    background-color:rgba(100,200,200,0.9);   
+}
+.box{
+    padding: 0;
+    position: absolute;
+    /*top: 35%;
+    transform: translateY(-35%);
+    transform: translateX(25%);*/
+}
+.CVbox{
+    border-left: 5px solid #999999;
+    border-right: 5px solid #999999;
+    background-color:#DDDDDD;
+    background-color:rgba(210,210,210,0.9);
+}
+.AMbox{
+    border-left: 5px solid #e2c72c;
+    border-right: 5px solid #e2c72c;
+    background-color:#e9d460;
+    background-color:rgba(233, 212, 96, 0.9);
+}
+.CONbox{
+    border-left: 5px solid #2a7ce2;
+    border-right: 5px solid #2c7fe2;
+    background-color:#2c7fe2;
+    background-color:rgba(44, 127, 226, 0.9);
+}
+article{
+    margin: 0 auto;
+    padding: 2.5% 5% 2.5% 5%;
+}
+.word_doc{
+    margin: 0 auto -2.5% auto;
+    padding: 2.5% 5% 0 5%;
+}
+.date{
+    float: right;
+    background-color:#93C54B;
+    background-color:rgba(147,197,75,1);
+    padding: 0px 5px;
+}
+.banner1{
+    background-color:#769E3C;
+    background-color:rgba(118,158,60,1);
+}
+.banner2{
+    background-color:#93C54B;
+    background-color:rgba(147,197,75,1);
+}
+.ALevels{
+    display: table;
+    min-width: 100%;
+}
+.AS{
+    display: table-cell;
+}
+.A2{
+    display: table-cell;
+}
+table{
+    margin: 0 auto;
+    max-width: 850px;
+}
+table tr{
+    margin: 0 auto;
+    max-width: 850px;
+}
+table td{
+    margin: 0 auto; 
+    padding: 1px 10px;
+}
+h2{
+    color: #777777;
+    padding: 30px 0 0 0;
+    margin: 0 auto 25px auto;
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+    padding: 10px 0;
+}
+h4{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+h6{
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px 10px;
+}
+p{
+    line-height: 30px;
+}
+button{
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #323232;
+    margin: 0 auto 10px auto; 
+}
+img{
+    width:50px;
+    height:50px;
+    border-radius:15px;
+}
+.circle{
+    border-radius:26px;
+}
+a{
+    color: #c8c8c8;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* these ones solely concern the index page */
+.textbox{
+    margin: 0 10%;
+}
+.leftCurtain, .rightCurtain{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+}
+.leftCurtain{
+    border-right: 2.5px solid #666;
+    background-color: #888;
+}
+.rightCurtain{
+    border-left: 2.5px solid #666;
+    margin: 0% 0% 0% 50%;
+    background-color: #888;
+}
+h1{
+    font-size: 90px;
+    margin: 15% 0 10% 0;
+}
