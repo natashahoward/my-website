@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <!-- have a look at the scale!!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.
+      4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKt
+      u6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="/stylesheets/normalize.css" rel="stylesheet">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=
+      swap" rel="stylesheet">
+    
+    <style>
+      p{
+        font-size: 23px;
+        margin: 60px 0 30px 0;
+      }
+      a{
+        font-size: 20px;
+      }
+    </style>
+
+  </head>
+
+  <body> 
+    <!--
+    <div class="leftCurtain"></div>
+    <div class="rightCurtain"></div>
+    -->
+
+    <div class="box">
+      <div class="textbox">
+        <h1>Welcome  to  my  website!</h1>
+        <p>It is <u>very</u> much a work in progress at the moment.
+        For more information on my ideas for this website, check out the 
+        portfolio tab!</p>
+        <h3>Where would you like to go?</h3>
+        <nav>
+          <button><a href="my_pages/about_me">About Me</a></button>
+          <button><a href="my_pages/CV">CV</a></button>
+          <button><a href="my_pages/portfolio">Portfolio</a></button>
+        </nav>
+      </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sh
+    a384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.m
+    in.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3Uks
+    dQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap
+    .min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod
+    8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $("div.leftCurtain").animate({right: '100%'}, 2000);
+        $("div.rightCurtain").animate({
+          width: '0%',
+          left: '50%'
+        }, 2000);
+      });
+    </script>
+    
+  </body>
+  
+</html>
