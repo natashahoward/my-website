@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.
+      4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKt
+      u6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="../stylesheets/normalize.css" rel="stylesheet">
+    <link href="../stylesheets/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=
+      swap" rel="stylesheet">
+
+    <title>CV</title>
+    <!--how to add an image/logo into the title?-->
+    
+  </head>
+  
+  <body>
+    <header><h2>CV</h2>
+      <nav>
+        <button><a href="about_me">About Me</a></button>
+        <button><a href="CV">CV</a></button>
+        <button><a href="portfolio">Portfolio</a></button>
+      </nav>
+    </header>
+    <div class="CVbox">
+      <div class="word_doc">
+        <p>For my CV as a word document: 
+          <button>
+            <a href="../files/Natasha_Howard_CV.docx" download>download here</a>
+          </button>
+        </p>
+      </div>
+      <article>
+        <div class="banner1">
+          <h3>EDUCATION</h3>
+        </div>
+        <div class="banner2">
+          <h4><strong>THE UNIVERSITY OF SHEFFIELD</strong>
+          <span class="date">2015 - 2018</span></h4>
+        </div>
+        <p><strong>BSc Economics and Mathematics</strong> – Second Class Honours
+        <br>Including credits in Modern Finance, Health Economics, 40 in 
+        Econometrics, 70 in Statistics</p>
+        <div class="banner2">
+          <h4>ESHER COLLEGE <span class="date">2013 - 2015</span></h4>
+        </div>
+        <div class="ALevels">
+          <div class="AS">
+            <h6>AS</h6> 
+            <ul>
+              <li>EPQ: A*</li>
+              <li>Maths: A</li>
+              <li>Economics: A</li>
+              <li>Further Maths: B</li>
+              <li>Psychology: B</li>
+            </ul>
+          </div>
+          <div class="A2"> 
+            <h6>A2</h6>
+            <ul>
+              <li>Maths: A</li>
+              <li>Economics: B</li>
+              <li>Further Maths: C<br><br><br></li>
+            </ul>
+          </div>
+        </div>
+        <div class="banner2">
+          <h4>COOMBE GIRLS’ SCHOOL <span class="date">2008 - 2013</span></h4>
+        </div>
+        <p>11 GCSEs A*-C including English Language (B) and English Literature 
+        (B), ICT Functional Skills</p>
+      </article>
+      
+      <article>
+        <div class="banner1">
+          <h3>EMPLOYMENT HISTORY</h3>
+        </div>
+        <div class="banner2">
+          <h4>NHS FOUNDATION TRUST<span class="date">FEB 2019 - PRESENT</span></h4>
+        </div>
+        
+        <h6>Discharge Support</h6>
+        <ul>
+          <li>Communicating the purpose of the Discharge Support Service and 
+          explaining the social and practical community support options 
+          available to patients transitioning from hospital to home.</li><br>
+          <li>Collecting patient referrals from ward staff.</li><br>
+          <li>Informing staff of newly introduced support services for patients.
+          </li><br>
+          <li>Currently training to become responsible for: patient referrals; 
+          communication with discharged patients; and assessment of support 
+          requirements.</li><br>
+          <li>Proactively taking opportunities to improve my skills, such as 
+          Mental Health First Aid training.</li><br>
+        </ul>
+    
+        <h6>Administrative Assistant</h6>
+        <ul>
+          <li>Confident use of Microsoft Office including mail merge, comparing 
+          and merging documents, formatting and editing spreadsheets.</li><br>
+          <li>Assisted with digitisation of office files and organisation of 
+          documents.</li><br>
+          <li>Telephoning volunteers to check in on wellbeing and to request 
+          information.</li><br>
+        </ul>
+        
+        <h6>Staff Health and Wellbeing</h6>
+        <ul>
+          <li>Communicated health and safety and infection control measures.
+          </li><br>
+          <li>Conveyed urgent communications about visitor restrictions and 
+          hygiene.</li><br>
+          <li>Organised and coordinated distribution of refreshments to 
+          departments whilst considering dietary needs.</li><br>
+          <li>Distribution of food parcels for staff to take home.</li><br>
+          <li>Organised, designated, and distributed scrubs.</li><br>
+          <li>Demonstrated flexibility and adaptability in completing a wide 
+          variety of different tasks.</li><br>
+          <li>Worked well under pressure in an unpredictable situation.</li><br>
+        </ul>
+        
+        <h6>Welcomer Volunteer</h6>
+        <ul>
+          <li>Guided patients around the extensive hospital and redirected them 
+          calmly in the event of incidents.</li><br>
+          <li>Maintained friendly and welcoming demeanour.</li><br>
+          <li>Treated distressed patients and visitors sensitively.</li>
+        </ul>
+
+        <div class="banner2">
+          <h4>JOHN LEWIS<span class="date">NOV–DEC 2016, OCT 2018 – SEP 2019</span></h4>
+        </div>
+        <h6>Operations Partner, Selling Partner</h6>
+        <ul>
+          <li>Responded to branch need by working across many departments.</li>
+          <br>
+          <li>Took responsibility for training and assisting new colleagues.
+          </li><br>
+          <li>Resolved complaints effectively.</li><br>
+          <li>Used initiative when asked for gift and fashion advice.</li><br>
+          <li>Improved the level of customer service through effective 
+          prioritisation.</li><br>
+          <li>Followed health and safety guidelines when handling heavy objects.
+          </li><br>
+          <li>Processed orders, transactions and returns with online and POS 
+          systems.</li><br>
+        </ul>
+
+        <div class="banner2">
+          <h4>THE ANTELOPE<span class="date">JUL – SEP 2016</span></h4>
+        </div>
+        <h6>Bar Staff</h6>
+        <ul>
+          <li>Provided welcoming environment for patrons and handled 
+          transactions efficiently.</li><br>
+          <li>Learnt the ever-changing menu to provide recommendations.</li><br>
+          <li>Worked exceptionally busy beer festival shifts with temporary 
+          staff.</li><br>
+          <li>Monitored stock levels and scheduled restocking.</li><br>
+        </ul>
+        <div class="banner2">
+          <h4>THOMSON REUTERS<span class="date">AUG 2014</span></h4>
+        </div>
+        <ul>
+          <li>Learnt about Thomson Reuters’ Eikon software, its features and the
+          role it plays in finance industry, for example through sentiment 
+          analysis.</li><br>
+        </ul>
+      </article>
+
+      <article>
+        <div class="banner1">
+          <h4>PROGRAMMING SKILLS</h4>
+        </div>
+        <div class="banner2">
+          <h6>Web Development</h6>
+        </div>
+        <ul>
+          <li>Code First Girls’: Level 1 Web Development Course (2016) (HTML, 
+          CSS, Git, JavaScript, GitHub collaboration, JQuery). Created a 
+          website, pushed it online and then presented it to the class.</li><br>
+          <li>Currently creating this website!</li><br>
+        </ul>
+        <div class="banner2">
+            <h6>R</h6>
+        </div>
+        <ul>
+          <li>Used R to program statistical analysis throughout my time at 
+          university.</li><br>
+        </ul> 
+        <div class="banner2">
+          <h6>Python</h6>
+        </div>
+        <ul>
+          <li>Code First Girls’: Level 2 Introduction to Python Course 
+          (2019-2020). Completed nine sessions alongside independent learning, 
+          culminating in producing and presenting a ‘Top Trumps’ style program.
+          </li><br>
+          <li>Subsequently have developed Python skills further through adding 
+          additional features to my project.</li><br>
+          <li>Planning to work on programming my Raspberry Pi to add to a smart 
+          home set up.</li>
+        </ul>
+      </article>
+        
+      <article>
+        <div class="banner1">
+          <h4>ADDITIONAL INFORMATION</h4>
+        </div>
+        <ul>
+          <li>Based in South West London.</li><br>
+          <li>Full, clean driving licence.</li>
+        </ul>
+      </article>
+
+      <article>
+        <div class="banner1">
+          <h4>INTERESTS</h4>
+        </div>
+        <ul>
+          <li>Staying active, particularly cycling, kayaking and ultimate 
+          frisbee.</li><br>
+          <li>Enjoy participating in performing arts and am a member of a small 
+          choir.</li>
+        </ul>
+      </article>
+
+    </div>
+    
+    <footer>
+      <table>
+        <tr>
+          <td>
+            <a href="https://www.linkedin.com/in/natashahoward1/">
+              <img src="../images/linkedin.jpg" alt="LinkedIn">
+            </a>
+          </td>
+          <td>
+            <a href="mailto:natashahowardcareers@outlook.com">
+              <img class="circle" src="../images/email_logo.jpg" alt="Email">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/natashahoward">
+              <img class="circle" src="../images/github_logo.jpg" alt="GitHub">
+            </a>
+          </td>
+          <!--<td>    
+            <a href="https://twitter.com/natashahoward26">
+              <img src="../images/twitter_logo.jpg" alt="Twitter">
+            </a>
+          </td> -->
+        </tr>
+        <tr>
+          <td>natashahoward1</td>
+          <td>natashahowardcareers<br>@outlook.com</td>
+          <td>natashahoward</td>
+          <!--<td>natashahoward26</td>-->
+        </tr>
+      </table>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sh
+      a384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.m
+      in.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3U
+      ksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap
+      .min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0U
+      od8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+  </body>
+
+</html>
