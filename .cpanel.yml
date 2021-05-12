@@ -1,17 +1,4 @@
-# Deployment of a repository
-
-# If you are using Git to manage your website’s files, you will also need to deploy these files from the repository to the root folder of your website. This is done through the Deploy HEAD commit feature of the Git Version Control menu.
-
-# First, you will need to create a .cpanel.yml file that can be placed into the root folder of your repository. The file should be started with the following lines:
-
----
 deployment:
   tasks:
-  
-# After that, you will need to add a list of BASH commands to be executed on the deployment.
-
-# Next line defines a DEPLOYPATH with the path to the document root of your website so that you will not have to enter it in each command manually:
     - export DEPLOYPATH=/home/natabicq/repositories/my-website
-
-#copy all from the root (note that this command will not copy hidden files or folders located in the root folder, such as ".git" or ".htaccess"):
     - cp -r * $DEPLOYPATH
